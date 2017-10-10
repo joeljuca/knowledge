@@ -4,4 +4,5 @@
 
 ---
 
+- [project management ✅](project-management.md)
 - [technology 💻](technology/index.md)
