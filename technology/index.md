@@ -1,4 +1,4 @@
-# 💻 technology
+# technology 💻
 
 Technology is revolutionizing the human life.
 Today, almost everything we do is now related to, or uses technology somehow.
