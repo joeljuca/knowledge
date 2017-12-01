@@ -1,5 +1,7 @@
 # knowledge 📚
 
+[![Build Status](https://travis-ci.org/joelwallis/knowledge.svg?branch=master)](https://travis-ci.org/joelwallis/knowledge)
+
 Welcome to **knowledge**, a book by Joel Wallis Jucá.
 If you're reading the online version, use the menu on the left side to browse
 the content.
