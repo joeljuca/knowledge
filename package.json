@@ -1,0 +1,16 @@
+{
+  "name": "knowledge",
+  "version": "1.0.0",
+  "description": "knowledge, a book by Joel Wallis Jucá",
+  "author": "Joel Wallis Jucá <joelwallis@gmail.com>",
+  "repository": "joelwallis/knowledge",
+  "homepage": "https://knowledge.joelwallis.com/",
+  "license": "ISC",
+  "scripts": {
+    "start": "gitbook serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
