@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "start": "gitbook serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gitbook build"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2"
