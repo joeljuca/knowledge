@@ -11,6 +11,12 @@ A real quick-and-dirty way.
 You gotta get a `*.img` file somehow. Most distributions distribute them as
 compacted versions (tar, gzip, xz, etc.).
 
+If all you've got is a `*.iso` file, convert it to `*.img` using `hdiutil`:
+
+```
+hdiutil convert -format UDRW -o /output.img /path/to/your/file.iso
+```
+
 **\#2: Prepare your removable**
 
 Format your removable as FAT32.
