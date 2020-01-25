@@ -9,5 +9,6 @@
   - [linux 🐧](technology/linux/index.md)
     - [fedora 🐧](technology/linux/fedora.md)
   - [programming 👨‍💻](technology/programming/index.md)
+    - [asdf ⚙️](technology/programming/asdf.md)
     - [javascript 💛](technology/programming/javascript/index.md)
       - [mocha ☕️](technology/programming/javascript/mocha.md)
