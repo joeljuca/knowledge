@@ -10,5 +10,6 @@
     - [fedora 🐧](technology/linux/fedora.md)
   - [programming 👨‍💻](technology/programming/index.md)
     - [asdf ⚙️](technology/programming/asdf.md)
+    - [erlang ⓔ](technology/programming/erlang.md)
     - [javascript 💛](technology/programming/javascript/index.md)
       - [mocha ☕️](technology/programming/javascript/mocha.md)
