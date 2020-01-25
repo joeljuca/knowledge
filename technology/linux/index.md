@@ -8,8 +8,7 @@ A real quick-and-dirty way.
 
 **\#1: Get an operating system image**
 
-You gotta get a `*.img` file somehow. Most distributions distribute them as
-compacted versions (tar, gzip, xz, etc.).
+You gotta get a `*.img` file somehow. Most distributions distribute them as compacted versions (tar, gzip, xz, etc.).
 
 If all you've got is a `*.iso` file, convert it to `*.img` using `hdiutil`:
 
@@ -54,10 +53,7 @@ You'll see something like this:
 
 Now figure out which one is the physical address of your removable disk.
 
-TL;DR: `diskutil list` lists all your disks, both physical and virtual.
-You'll have to figure out which **physical** disk is your removable, but you can
-generally check it through the storage capacities (in the example, it's a
-microsd capable of 2GB storage).
+TL;DR: `diskutil list` lists all your disks, both physical and virtual. You'll have to figure out which **physical** disk is your removable, but you can generally check it through the storage capacities (in the example, it's a microsd capable of 2GB storage).
 
 **\#4: Copy the raw data to your disk**
 
@@ -73,7 +69,7 @@ According to the example above, it would be:
 # diskutil unmountDisk /dev/disk2
 ```
 
-Then use `dd` to copy the contents your ``*.img` file into your disk:
+Then use `dd` to copy the contents your ``\*.img` file into your disk:
 
 ```
 sudo dd if=<your-removable-disk> of=path/to/your/file.img bs=1ms

@@ -1,7 +1,6 @@
 # project management ✅
-I've tried many different setups to manage projects: stickies, kanban, many
-different apps and services, and I failed horribly at getting things done.
-Now I have a quite simple setup:
+
+I've tried many different setups to manage projects: stickies, kanban, many different apps and services, and I failed horribly at getting things done. Now I have a quite simple setup:
 
 - I use [Wunderlist](https://www.wunderlist.com/) as my main to-do app, with
   lists for personal and professional things;

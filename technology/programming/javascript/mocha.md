@@ -4,8 +4,7 @@ Not the fastest unit testing framework but `¯\_(ツ)_/¯`.
 
 ## nyan reporter
 
-Add `--reporter=nyan` to your `test` script on `package.json` and your tests
-will be the most nyaned awesome omg-thats-really-cool ones in the world:
+Add `--reporter=nyan` to your `test` script on `package.json` and your tests will be the most nyaned awesome omg-thats-really-cool ones in the world:
 
 ```
 $ mocha --reporter=nyan
