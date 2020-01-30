@@ -6,6 +6,8 @@
 
 - [project management ✅](project-management.md)
 - [technology 💻](technology/index.md)
+  - [ci/cd ⚙️](technology/ci-cd/index.md)
+    - [gitlab 🦊](technology/ci-cd/gitlab.md)
   - [linux 🐧](technology/linux/index.md)
     - [fedora 🐧](technology/linux/fedora.md)
   - [programming 👨‍💻](technology/programming/index.md)
