@@ -21,3 +21,5 @@ asdf install erlang 22.1.5
 ```
 
 These options will disable Java-related features and point to the correct OpenSSL paths.
+
+You'll find more information about setting up Erlang in your machine in the [Setup](https://adoptingerlang.org/docs/development/setup) chapter of the [Adopting Erlang](https://adoptingerlang.org) book (a must-read if you're adopting Erlang just now).
