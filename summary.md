@@ -18,4 +18,5 @@
     - [erlang ⓔ](technology/programming/erlang.md)
     - [javascript 💛](technology/programming/javascript/index.md)
       - [mocha ☕️](technology/programming/javascript/mocha.md)
+    - [ruby 💎](technology/programming/ruby.md)
     - [vs code 📝](technology/programming/vs-code.md)
