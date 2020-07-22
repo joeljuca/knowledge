@@ -17,6 +17,7 @@
       - [phoenix 🧡](technology/programming/elixir/phoenix.md)
     - [erlang ⓔ](technology/programming/erlang.md)
     - [javascript 💛](technology/programming/javascript/index.md)
+      - [jest 🃏](technology/programming/javascript/jest.md)
       - [mocha ☕️](technology/programming/javascript/mocha.md)
     - [ruby 💎](technology/programming/ruby.md)
     - [vs code 📝](technology/programming/vs-code.md)
