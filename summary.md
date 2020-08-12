@@ -4,6 +4,7 @@
 
 ---
 
+- [music 🎼](music/index.md)
 - [project management ✅](project-management.md)
 - [technology 💻](technology/index.md)
   - [ci/cd ⚙️](technology/ci-cd/index.md)
