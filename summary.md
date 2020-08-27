@@ -20,5 +20,6 @@
     - [javascript 💛](technology/programming/javascript/index.md)
       - [jest 🃏](technology/programming/javascript/jest.md)
       - [mocha ☕️](technology/programming/javascript/mocha.md)
+      - [react ⚛︎](technology/programming/javascript/react.md)
     - [ruby 💎](technology/programming/ruby.md)
     - [vs code 📝](technology/programming/vs-code.md)
