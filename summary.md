@@ -22,4 +22,5 @@
       - [mocha ☕️](technology/programming/javascript/mocha.md)
       - [react ⚛︎](technology/programming/javascript/react.md)
     - [ruby 💎](technology/programming/ruby.md)
+    - [shell 💲](technology/programming/shell.md)
     - [vs code 📝](technology/programming/vs-code.md)
