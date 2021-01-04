@@ -9,3 +9,19 @@ It fails to verify the authenticity of packages' signatures. A simple fix is to 
 ```
 ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 ```
+
+## _"Recent versions not showing up. WTF?"_
+
+The asdf work alongside plugins that declares installers and manages them separatedly. So, in order to see the latest version of the respective binaries (`node`, `ruby`, etc.) you must update their respective plugins.
+
+I ran on this problem today: I was trying to install Ruby 3.0.0 but it wasn't showing up as option when I ran `asdf list all ruby`. The solution? Update the respective plugin:
+
+```sh
+asdf plugin update ruby
+```
+
+You can also update them all for greater good:
+
+```sh
+asdf plugin update -all
+```
