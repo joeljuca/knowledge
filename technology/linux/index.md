@@ -72,7 +72,7 @@ According to the example above, it would be:
 Then use `dd` to copy the contents your ``\*.img` file into your disk:
 
 ```
-sudo dd if=<your-removable-disk> of=path/to/your/file.img bs=1ms
+sudo dd if=path/to/your/file.img if=<your-removable-disk> bs=1ms
 ```
 
 **Additional resources:**
