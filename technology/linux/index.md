@@ -75,6 +75,18 @@ Then use `dd` to copy the contents your ``\*.img` file into your disk:
 sudo dd if=path/to/your/file.img if=<your-removable-disk> bs=1ms
 ```
 
+**Pro tip: Use GNU dd to get progress reporting**
+
+The `dd` binary that ships in macOS does not report progress during its operations, but the GNU version of `dd` does. In macOS, you can install it through the Homebrew package `coreutils` (`brew install coreutils`). The GNU dd will then be available in your `$PATH` as `gdd` (the coreutils package prefixes its binaries with a `g` - god knows why).
+
+With GNU `dd` in place, you can run it just like you would do in `dd`, with an additional option, `status=progress`:
+
+```
+gdd if=./your-image.img of=/dev/disk2 status=progress bs=8388608
+```
+
+> Note: the parameter `bs` of GNU dd seems to work only with a quantity of bytes and does not understand magnitude suffixes (eg: `K` fo kylobyte, `M` for megabyte, etc.), so you must inform a number with no suffixes. It defaults to `512`, but you must inform your own. Since `512` is very small, you can use `1024` for read/write 1KB at a time, `2048` for 2KB, etc. - I've been using `8388608` (8MB) and it works well - though writing to a microsd imposes its own writing speeds.
+
 **Additional resources:**
 
 - https://developer.ubuntu.com/core/get-started/installation-medias
