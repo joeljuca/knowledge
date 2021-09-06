@@ -1,0 +1,10 @@
+[book]
+authors = ["Joel Jucá"]
+language = "en"
+multilingual = false
+src = "src"
+title = "knowledge 📚"
+
+
+[preprocessor.index]
+[preprocessor.links]
