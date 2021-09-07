@@ -7,6 +7,7 @@
 - [💻 tech](tech/index.md)
   - [⚙️ asdf](tech/asdf.md)
   - [⚙️ ci/cd](tech/ci-cd.md)
+  - [🍎 macos](tech/macos.md)
   - [💜 elixir](tech/elixir.md)
   - [ⓔ erlang](tech/erlang.md)
   - [📼 ffmpeg](tech/ffmpeg.md)
