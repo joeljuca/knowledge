@@ -3,6 +3,7 @@
 [📚 knowledge](README.md)
 
 ---
+
 - [🎼 music](music/index.md)
 - [✅ project management](pm.md)
 - [💻 tech](tech/index.md)
@@ -13,10 +14,10 @@
   - [ⓔ erlang](tech/erlang.md)
   - [📼 ffmpeg](tech/ffmpeg.md)
   - [😈 freedsd](tech/freebsd.md)
+  - [🔒 gpg](tech/gpg.md)
   - [👽 lfe](tech/lfe.md)
   - [🐧 linux](tech/linux.md)
   - [💛 javascript](tech/javascript.md)
   - [💎 ruby](tech/ruby.md)
   - [💲 shell](tech/shell.md)
   - [📝 vs code](tech/vs-code.md)
-
