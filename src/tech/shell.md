@@ -31,7 +31,11 @@ for i in $(seq 1 3); do echo $i; done
 You'll often need to run a command over and over again for some reason (mine right now is: I have to check if a file exists). There are obviously better options - but doing things through command-line [ninjutsu](https://en.wikipedia.org/wiki/Ninjutsu) is always funnier. So, one-line infinite loops in Shell (both sh and Bash):
 
 ```sh
-while true; do echo "Hello!" && sleep 1 done
+while true; do echo "Doing some work" && sleep 1; done
+# => Doing some work
+# => Doing some work
+# => Doing some work
+# => ...
 ```
 
 This will run `echo "Hello!"` forever, "sleeping" for one second between each execution.
