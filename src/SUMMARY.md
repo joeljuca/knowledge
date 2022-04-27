@@ -3,6 +3,7 @@
 [📚 knowledge](README.md)
 
 ---
+
 - [🎼 music](music/index.md)
 - [✅ project management](pm.md)
 - [💻 tech](tech/index.md)
@@ -16,7 +17,7 @@
   - [👽 lfe](tech/lfe.md)
   - [🐧 linux](tech/linux.md)
   - [💛 javascript](tech/javascript.md)
+  - [🔁 rsync](tech/rsync.md)
   - [💎 ruby](tech/ruby.md)
   - [💲 shell](tech/shell.md)
   - [📝 vs code](tech/vs-code.md)
-
