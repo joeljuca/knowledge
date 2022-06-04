@@ -93,3 +93,5 @@ ffmpeg -ss 11:58 -t 12:30 -i ./elug-ce-meetup-5-eceba7abc25e241c41f43a898ea32dd4
 
 position must be a time duration specification, see the Time duration section in the ffmpeg-utils(1)
 manual.
+
+ffmpeg buddy: https://evanhahn.github.io/ffmpeg-buddy/
