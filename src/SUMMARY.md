@@ -15,6 +15,7 @@
   - [📼 ffmpeg](tech/ffmpeg.md)
   - [😈 freedsd](tech/freebsd.md)
   - [🔒 gpg](tech/gpg.md)
+  - [☸ k8s](tech/k8s.md)
   - [👽 lfe](tech/lfe.md)
   - [🐧 linux](tech/linux.md)
   - [💛 javascript](tech/javascript.md)
