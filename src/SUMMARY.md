@@ -14,6 +14,7 @@
   - [ⓔ erlang](tech/erlang.md)
   - [📼 ffmpeg](tech/ffmpeg.md)
   - [😈 freedsd](tech/freebsd.md)
+  - [🔒 gpg](tech/gpg.md)
   - [👽 lfe](tech/lfe.md)
   - [🐧 linux](tech/linux.md)
   - [💛 javascript](tech/javascript.md)
