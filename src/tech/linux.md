@@ -87,4 +87,4 @@ gdd if=./your-image.img of=/dev/disk2 status=progress bs=8388608
 
 **Additional resources:**
 
-- https://developer.ubuntu.com/core/get-started/installation-medias
+- [https://developer.ubuntu.com/core/get-started/installation-medias](https://developer.ubuntu.com/core/get-started/installation-medias)
