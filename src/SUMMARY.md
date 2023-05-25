@@ -23,4 +23,5 @@
   - [🔁 rsync](tech/rsync.md)
   - [💎 ruby](tech/ruby.md)
   - [💲 shell](tech/shell.md)
+  - [🪶 sqlite](tech/sqlite.md)
   - [📝 vs code](tech/vs-code.md)
