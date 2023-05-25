@@ -19,6 +19,7 @@
   - [👽 lfe](tech/lfe.md)
   - [🐧 linux](tech/linux.md)
   - [💛 javascript](tech/javascript.md)
+  - [🐍 python](tech/python.md)
   - [🔁 rsync](tech/rsync.md)
   - [💎 ruby](tech/ruby.md)
   - [💲 shell](tech/shell.md)
