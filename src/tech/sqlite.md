@@ -107,3 +107,16 @@ sqlite> .help
 .width NUM1 NUM2 ...     Set minimum column widths for columnar output
 sqlite>
 ```
+
+## Resources
+
+SQLite is unlike most popular relational databases due to it not being embedded instead of client-server.
+
+- [Mycelial YouTube channel](https://www.youtube.com/channel/UCgmu4SU8x0K_Uodq7sPATmw)  
+  They develop extensions to SQLite for distributed use cases
+
+### SQLite and the N+1 Problem
+
+<p style="text-align:center">
+  <iframe src="https://www.youtube.com/embed/qPfAQY_RahA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  style="max-width:560px;height:315px;width:100%"></iframe>
+</p>
