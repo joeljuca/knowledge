@@ -110,7 +110,7 @@ sqlite>
 
 ## Resources
 
-SQLite is unlike most popular relational databases due to it not being embedded instead of client-server.
+SQLite is unlike most popular relational databases due to it being embedded instead of client-server.
 
 - [Mycelial YouTube channel](https://www.youtube.com/channel/UCgmu4SU8x0K_Uodq7sPATmw)  
   They develop extensions to SQLite for distributed use cases
