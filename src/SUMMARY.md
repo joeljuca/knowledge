@@ -4,6 +4,8 @@
 
 ---
 
+- [✌️ life](life/index.md)
+  - [🛠️ monday fix](life/monday-fix.md)
 - [🎼 music](music/index.md)
 - [✅ project management](pm.md)
 - [💻 tech](tech/index.md)
