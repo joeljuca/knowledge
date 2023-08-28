@@ -12,6 +12,7 @@
   - [💻 code](tech/code/index.md)
     - [⚙️ asdf](tech/code/asdf.md)
     - [⚙️ ci/cd](tech/code/ci-cd.md)
+    - [λ clojure](tech/code/clojure.md)
     - [💻 editors](tech/code/editors.md)
     - [💜 elixir](tech/code/elixir.md)
     - [ⓔ erlang](tech/code/erlang.md)
