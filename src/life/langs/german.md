@@ -10,14 +10,14 @@ German is definitely super entirely very totally hard to learn! Really. But I'm 
 
 German has the following tenses:
 
-- Präsens (Present tense)
-- Präteritum (Simple past tense)
-- Perfekt (Present perfect tense)
-- Plusquamperfekt (Past perfect tense)
-- Futur I (Future tense)
-- Futur II (Future perfect tense)
-- Konjunktiv I (Subjunctive I)
-- Konjunktiv II (Subjunctive II)
+- **Präsens** (Present tense)
+- **Präteritum** (Simple past tense)
+- **Perfekt** (Present perfect tense)
+- **Plusquamperfekt** (Past perfect tense)
+- **Futur I** (Future tense)
+- **Futur II** (Future perfect tense)
+- **Konjunktiv I** (Subjunctive I)
+- **Konjunktiv II** (Subjunctive II)
 
 Each of these tenses has its own specific usage and forms, allowing you to express actions or events in various time frames and contexts. Keep in mind that some of these tenses, like the subjunctive forms, might be used more in written language or in formal contexts.
 
@@ -36,12 +36,12 @@ When I asked ChatGPT for the TOP 3 most used verbs in the German language it cam
 
 #### Examples
 
-- _Ich bin Student (I'm a student)_
-- _Du bist mein Freund (You are my friend)_
-- _Er ist sehr intelligent (He is very intelligent)_
-- _Wir sind glücklich (We are happy)_
-- _Ihr seid geschwister (You are siblings)_
-- _Sie sind Lehrer (They are teachers)_
+- _**Ich bin Student** (I'm a student)_
+- _**Du bist mein Freund** (You are my friend)_
+- _**Er ist sehr intelligent** (He is very intelligent)_
+- _**Wir sind glücklich** (We are happy)_
+- _**Ihr seid geschwister** (You are siblings)_
+- _**Sie sind Lehrer** (They are teachers)_
 
 Sein is a crucial verb in German. Pretty much the most commonly used German verb. So, it's important to absolutely master it entirely, for real.
 
