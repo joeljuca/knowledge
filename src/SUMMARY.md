@@ -5,6 +5,8 @@
 ---
 
 - [✌️ life](life/index.md)
+  - [🗣️ langs](life/langs/index.md)
+    - [🇩🇪 german](life/langs/german.md)
   - [🛠️ monday fix](life/monday-fix.md)
 - [🎼 music](music/index.md)
 - [✅ project management](pm.md)
