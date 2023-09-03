@@ -1,4 +1,4 @@
-# lfe 👽
+# lfe ⛾
 
 LFE (Lisp Flavoured Erlang; [website](https://lfe.io/), [Wikipedia](<https://en.wikipedia.org/wiki/LFE_(programming_language)>)) is a Lisp dialect built on Erlang/BEAM.
 

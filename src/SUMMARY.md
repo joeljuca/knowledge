@@ -19,7 +19,7 @@
     - [ⓔ erlang](tech/code/erlang.md)
     - [💛 javascript](tech/code/javascript.md)
     - [👽 lisp](tech/code/lisp.md)
-    - [👽 lfe](tech/code/lfe.md)
+    - [⛾ lfe](tech/code/lfe.md)
     - [🐍 python](tech/code/python.md)
     - [💎 ruby](tech/code/ruby.md)
     - [💲 shell](tech/code/shell.md)
