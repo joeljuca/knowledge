@@ -1,4 +1,4 @@
-# erlang ⓔ
+# erlang ☎️
 
 My adventures on this amazing distributed computing platform.
 

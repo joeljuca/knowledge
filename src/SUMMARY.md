@@ -16,7 +16,7 @@
     - [⚙️ ci/cd](tech/code/ci-cd.md)
     - [💻 editors](tech/code/editors.md)
     - [💜 elixir](tech/code/elixir.md)
-    - [ⓔ erlang](tech/code/erlang.md)
+    - [☎️ erlang](tech/code/erlang.md)
     - [💛 javascript](tech/code/javascript.md)
     - [👽 lisp](tech/code/lisp.md)
     - [☕️ lfe](tech/code/lfe.md)
