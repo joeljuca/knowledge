@@ -1,6 +1,7 @@
 # knowledge 📚
 
 [![Build Status](https://travis-ci.org/joelwallis/knowledge.svg?branch=master)](https://travis-ci.org/joelwallis/knowledge)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0859325e-4cd1-4333-8c45-1a9af16ab033/deploy-status)](https://app.netlify.com/sites/knowledge-joeljuca/deploys)
 
 Welcome to **knowledge**, a book by Joel Jucá. If you're reading the online version, use the menu on the left side to browse the content.
 
