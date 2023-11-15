@@ -95,3 +95,8 @@ position must be a time duration specification, see the Time duration section in
 manual.
 
 ffmpeg buddy: https://evanhahn.github.io/ffmpeg-buddy/
+
+## Video estabilization with [FFmpeg](https://ffmpeg.org) and [VidStab](https://github.com/georgmartius/vid.stab)
+
+- A guide by [maxogden (and comments by Paul Irish)](https://gist.github.com/maxogden/43219d6dcb9006042849)
+- A follow up by Paul Irish: [Video Stabilization With `ffmpeg` and `VidStab`](https://www.paulirish.com/2021/video-stabilization-with-ffmpeg-and-vidstab/)
