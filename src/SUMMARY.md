@@ -25,6 +25,7 @@
     - [💲 shell](tech/code/shell.md)
   - [🛠️ ops](tech/ops/index.md)
     - [☸ k8s](tech/ops/k8s.md)
+    - [💻 kafka](tech/ops/kafka.md)
   - [🖥️ unix](tech/unix/index.md)
     - [📼 ffmpeg](tech/unix/ffmpeg.md)
     - [😈 freedsd](tech/unix/freebsd.md)
