@@ -4,7 +4,7 @@
 
 A real quick-and-dirty way.
 
-**\#1: Get an operating system image**
+### 1º. Get an operating system image
 
 You gotta get a `*.img` file somehow. Most distributions distribute them as compacted versions (tar, gzip, xz, etc.).
 
@@ -14,11 +14,11 @@ If all you've got is a `*.iso` file, convert it to `*.img` using `hdiutil`:
 hdiutil convert -format UDRW -o /output.img /path/to/your/file.iso
 ```
 
-**\#2: Prepare your removable**
+### 2º. Prepare your removable
 
 Format your removable as FAT32.
 
-**\#3: Now, find the physical address of your removable**
+### 3º. Now, find the physical address of your removable
 
 Plug your removable into your macOS system and run:
 
@@ -53,7 +53,7 @@ Now figure out which one is the physical address of your removable disk.
 
 TL;DR: `diskutil list` lists all your disks, both physical and virtual. You'll have to figure out which **physical** disk is your removable, but you can generally check it through the storage capacities (in the example, it's a microsd capable of 2GB storage).
 
-**\#4: Copy the raw data to your disk**
+### 4º. Copy the raw data to your disk
 
 After identifying the physical address of your removable, run:
 
@@ -73,17 +73,21 @@ Then use `dd` to copy the contents your ``\*.img` file into your disk:
 sudo dd if=path/to/your/file.img if=<your-removable-disk> bs=1ms
 ```
 
-**Pro tip: Use GNU dd to get progress reporting**
-
-The `dd` binary that ships in macOS does not report progress during its operations, but the GNU version of `dd` does. In macOS, you can install it through the Homebrew package `coreutils` (`brew install coreutils`). The GNU dd will then be available in your `$PATH` as `gdd` (the coreutils package prefixes its binaries with a `g` - god knows why).
+> **💡 Use GNU `dd` to get progress reporting**
+>
+> The `dd` binary that ships in macOS does not report progress, but the GNU's does. You can install it through Homebrew's pkg `coreutils` (`brew install coreutils`).
+>
+> GNU's `dd` will then be available in your `$PATH` as `gdd`.
 
 With GNU `dd` in place, you can run it just like you would do in `dd`, with an additional option, `status=progress`:
 
 ```
-gdd if=./your-image.img of=/dev/disk2 status=progress bs=8388608
+gdd bs=1M status=progress if=./your-image.img of=/dev/disk2
 ```
 
+<!--
 > Note: the parameter `bs` of GNU dd seems to work only with a quantity of bytes and does not understand magnitude suffixes (eg: `K` fo kylobyte, `M` for megabyte, etc.), so you must inform a number with no suffixes. It defaults to `512`, but you must inform your own. Since `512` is very small, you can use `1024` for read/write 1KB at a time, `2048` for 2KB, etc. - I've been using `8388608` (8MB) and it works well - though writing to a microsd imposes its own writing speeds.
+-->
 
 **Additional resources:**
 
