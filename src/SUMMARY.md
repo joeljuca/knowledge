@@ -34,4 +34,5 @@
     - [🐧 linux](tech/unix/linux.md)
     - [🍎 macos](tech/unix/macos.md)
     - [🔁 rsync](tech/unix/rsync.md)
+    - [📟 sbc](tech/unix/sbc.md)
   - [🪶 sqlite](tech/sqlite.md)
