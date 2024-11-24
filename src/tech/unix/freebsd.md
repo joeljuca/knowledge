@@ -94,6 +94,25 @@ services sshd restart
 
 It would make more sense if you had something like `service <subcommand> <service-name>` - but again, if it works I can live with it.
 
+## ZFS over FreeBSD
+
+Yep, I dove into ZFS, I gotta learn this thing. So, here's what I've been learning so far:
+
+### ZFS concepts
+
+- **zpool**  
+   The most basic ZFS building block. A zpool is a group (one or more) of disk behaving as a single storage "thing". You'll need to create datasets and/or volumes (each described below) in your zpool in order to store files and/or raw data
+- **dataset**  
+  The ZFS file system. It allows you to store directories and files in hierarchical order, just like any other file system.
+- **volume**  
+  It's a raw storage unit, useful to store raw data, like non-ZFS file systems like UFS, ext4 (Linux), or NTFS (Windows). IMHO, the great thing here is that it's possible to use non-featureful file systems from within ZFS and have some of its features (compression, snapshots, encryption, etc.) on it
+- **vdev**  
+  I didn't get this yet
+- **snapshot**  
+  A point-in-time freezing state of how this dataset or volume looked like at the moment the snapshot was taken. Absolutely useful for backups!
+
+[FreeBSD Fridays: Introduction to ZFS](https://youtu.be/pN7OLChclH8) by Dan Langille
+
 ## The FreeBSD Handbook
 
 I'm learning all this stuff by reading the [FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/), the official project documentation. In fact, I'm learning a ton of interesting stuff about UNIX systems - like permission tricks like [setuid and setgid](https://en.wikipedia.org/wiki/Setuid), [sticky bits](https://en.wikipedia.org/wiki/Sticky_bit)
