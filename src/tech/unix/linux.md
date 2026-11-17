@@ -4,7 +4,7 @@
 
 A real quick-and-dirty way.
 
-### 1º. Get an operating system image
+### 1st. Get an operating system image
 
 You gotta get a `*.img` file somehow. Most distributions distribute them as compacted versions (tar, gzip, xz, etc.).
 
@@ -14,11 +14,11 @@ If all you've got is a `*.iso` file, convert it to `*.img` using `hdiutil`:
 hdiutil convert -format UDRW -o /output.img /path/to/your/file.iso
 ```
 
-### 2º. Prepare your removable
+### 2nd. Prepare your removable
 
 Format your removable as FAT32.
 
-### 3º. Now, find the physical address of your removable
+### 3rd. Now, find the physical address of your removable
 
 Plug your removable into your macOS system and run:
 
@@ -53,7 +53,7 @@ Now figure out which one is the physical address of your removable disk.
 
 TL;DR: `diskutil list` lists all your disks, both physical and virtual. You'll have to figure out which **physical** disk is your removable, but you can generally check it through the storage capacities (in the example, it's a microsd capable of 2GB storage).
 
-### 4º. Copy the raw data to your disk
+### 4th. Copy the raw data to your disk
 
 After identifying the physical address of your removable, run:
 
@@ -92,3 +92,21 @@ gdd bs=1M status=progress if=./your-image.img of=/dev/disk2
 **Additional resources:**
 
 - [https://developer.ubuntu.com/core/get-started/installation-medias](https://developer.ubuntu.com/core/get-started/installation-medias)
+
+## Pacman
+
+I just never remember these cmds of Pacman, really.
+
+| Homebrew things      | Pacman equivalents                                |
+| -------------------- | ------------------------------------------------- |
+| `brew list`          | `pacman -Q`                                       |
+|                      | `pacman -Qe` (explicitly installed only; no deps) |
+| `brew outdated`      | `pacman -Qu`                                      |
+| `brew update`        | `pacman -Sy`                                      |
+| `brew search pkg`    | `pacman -Ss pkg`                                  |
+| `brew info pkg`      | `pacman -Si <pkg>`                                |
+| `brew install pkg`   | `pacman -Suy pkg `                                |
+| `brew uninstall pkg` | `pacman -Rs pkg `                                 |
+| `brew cleanup `      | `pacman -Scc`                                     |
+| List orphan pkgs     | `pacman -Qdt`                                     |
+| Autoremove orphans   | `pacman -Qdtq \| pacman -Rns -`                   |
