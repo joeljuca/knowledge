@@ -15,6 +15,18 @@ I always wanted to write a book with things I've been learning during my life, b
 
 An unstructured version that gets published would be better than a well formatted one that never goes public.
 
+## How?
+
+```sh
+# build it for deploy
+mdbook build
+```
+
+```sh
+# serve it while you edit things
+mdbook serve
+```
+
 ## License
 
 [ISC](license)
